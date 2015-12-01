@@ -1,0 +1,8 @@
+dependencies:
+  pre:
+    - npm install jshint -g
+test:
+  override:
+    - jshint .
+    - bundle exec scss-lint .
+    - jekyll build

@@ -1,0 +1,26 @@
+// SCSS project structure
+// |– base/
+// |    Project boilerplate. i.e. resets, typography.
+// |
+// |– components/
+// |    Reusable widgets. i.e. buttons, dropdowns.
+// |
+// |– layouts/
+// |    Layout bits. i.e. header, footer, sidebar.
+// |
+// |– pages/
+// |    Page specific styles. i.e. home page, contact page.
+// |
+// |– themes/
+// |    Any other themes. i.e. Admin pages.
+// |
+// |– util/
+// |    Helpers. i.e. functions, mixins, variables.
+// |
+// |– vendor/
+// |    Handy code that we don't have to maintain, yay!
+// |
+// |– _shame.scss
+//      A file for hacks that we're not proud of.
+
+@import 'components/syntax-highlighting';
