@@ -1,0 +1,30 @@
+.site-header {
+  $content-height: 30px;
+  $content-width: 20px;
+
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: $header-height;
+  padding: 10px 30px 10px 20px;
+
+  .icon-logo {
+    height: $content-height;
+    width: $content-width;
+    margin-right: 15px;
+
+    svg {
+      height: $content-height;
+      width: $content-width;
+      fill: $roli-white;
+    }
+  }
+
+  .site-title {
+    color: $roli-white;
+    text-decoration: none;
+    vertical-align: top;
+    line-height: $content-height + 3;
+  }
+}

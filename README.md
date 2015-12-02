@@ -14,6 +14,7 @@ git clone git@github.com:WeAreROLI/WeAreROLI.github.io
 cd WeAreROLI.github.io
 
 # Install the deps
+gem install bundler
 bundle install
 
 # Run the site locally

@@ -23,11 +23,15 @@
 // |– _shame.scss
 //      A file for hacks that we're not proud of.
 
-@import 'util/typography';
 @import 'util/colors';
+@import 'util/variables';
+@import 'util/typography';
 
 @import 'base/body';
 @import 'base/fonts';
 @import 'base/typography';
+
+@import 'layout/header';
+@import 'layout/main';
 
 @import 'components/syntax-highlighting';
