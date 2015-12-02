@@ -1,0 +1,26 @@
+$font-family:
+  'Contax Pro',
+  'HelveticaNeue',
+  'Helvetica Neue',
+  'HelveticaNeueRoman',
+  'HelveticaNeue-Roman',
+  'Helvetica Neue Roman',
+  'Helvetica',
+  'Tahoma',
+  'Geneva',
+  'Arial',
+  'sans-serif';
+
+$font-family-monospace: 'Menlo', 'Monaco', 'Consolas', 'Courier New', monospace;
+
+$weight-45: 400;
+$weight-55: 500;
+$weight-65: 700;
+
+$font-size-jumbo: 52px;
+$font-size-base:  15px;
+$font-size-post:  18px;
+$font-size-small: 13px;
+
+$line-height-base:     20 / 14;
+$line-height-computed: floor(($font-size-base * $line-height-base)); // ~20px

@@ -1,0 +1,37 @@
+$font-dir: 'fonts/';
+
+// 45
+@font-face {
+	font-family: 'Contax Pro';
+	src: url('#{$font-dir}2E17A9_1_0.eot');
+	src: url('#{$font-dir}2E17A9_1_0.eot?#iefix') format('embedded-opentype'), url('#{$font-dir}2E17A9_1_0.woff2') format('woff2'), url('#{$font-dir}2E17A9_1_0.woff') format('woff'), url('#{$font-dir}2E17A9_1_0.ttf') format('truetype');
+	font-weight: $weight-45;
+	font-style: normal;
+}
+
+// 46
+@font-face {
+	font-family: 'Contax Pro';
+	src: url('#{$font-dir}2E17A9_0_0.eot');
+	src: url('#{$font-dir}2E17A9_0_0.eot?#iefix') format('embedded-opentype'), url('#{$font-dir}2E17A9_0_0.woff2') format('woff2'), url('#{$font-dir}2E17A9_0_0.woff') format('woff'), url('#{$font-dir}2E17A9_0_0.ttf') format('truetype');
+	font-weight: $weight-45;
+	font-style: italic;
+}
+
+// 55
+@font-face {
+	font-family: 'Contax Pro';
+	src: url('#{$font-dir}2E17A9_3_0.eot');
+	src: url('#{$font-dir}2E17A9_3_0.eot?#iefix') format('embedded-opentype'), url('#{$font-dir}2E17A9_3_0.woff2') format('woff2'), url('#{$font-dir}2E17A9_3_0.woff') format('woff'), url('#{$font-dir}2E17A9_3_0.ttf') format('truetype');
+	font-weight: $weight-55;
+	font-style: normal;
+}
+
+// 65
+@font-face {
+	font-family: 'Contax Pro';
+	src: url('#{$font-dir}2E17A9_2_0.eot');
+	src: url('#{$font-dir}2E17A9_2_0.eot?#iefix') format('embedded-opentype'), url('#{$font-dir}2E17A9_2_0.woff2') format('woff2'), url('#{$font-dir}2E17A9_2_0.woff') format('woff'), url('#{$font-dir}2E17A9_2_0.ttf') format('truetype');
+	font-weight: $weight-65;
+	font-style: normal;
+}

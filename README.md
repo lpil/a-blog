@@ -17,5 +17,5 @@ cd WeAreROLI.github.io
 bundle install
 
 # Run the site locally
-bundle exec jekyll serve --incremental
+bundle exec jekyll serve
 ```

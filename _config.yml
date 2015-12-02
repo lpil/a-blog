@@ -3,6 +3,7 @@ description: >
   We are ROLI.
 
 baseurl: ""
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://WeAreROLI.github.io/" # The base hostname & protocol
+permalink: "blog/:title"
 
 markdown: kramdown

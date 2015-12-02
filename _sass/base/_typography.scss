@@ -1,0 +1,22 @@
+body,
+a {
+  color: $roli-grey-dark;
+  font-family: $font-family;
+}
+
+h1, h2, h3, h4 {
+  font-weight: $weight-45;
+}
+
+hr {
+  border-top: 2px solid $roli-grey-light;
+  margin: 20px 0;
+}
+
+p a, a.inline-link {
+  text-decoration: underline;
+}
+
+a:focus, button:focus, button:active {
+  outline: none;
+}
