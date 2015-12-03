@@ -2,8 +2,9 @@
 layout: post
 title:  "Hello, world!"
 date:   2015-12-01 20:47:52 +0000
+author: lpil
 categories:
-  - Foo
+  - Web
 ---
 
 {% highlight elixir %}

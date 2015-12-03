@@ -2,22 +2,32 @@
 layout: default
 ---
 
-<div class="home">
+<h1>
+  {{ site.title }}
+</h1>
+<p>
+  Written by <a href="https://www.roli.com/team" target="_blank">ROLI</a>
+</p>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<ul class="post-list">
+  {% for post in site.posts %}
+    {% assign author = site.data.authors[post.author] %}
+    <li class="post__single">
+      <h2>
+        <a class="post__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+      <span class="post__author">
+        {% if author %}
+          {% if author.site %}
+            <a href="{{ author.site }}" target="_blank">{{ author.name }}</a>
+          {% else %}
+            {{ author.name }}
+          {% endif %}
+        {% endif %}
+      </span>
+      &mdash;
+      <span class="post__date">{{ post.date | date: "%B %-d, %Y" }}</span>
+      <span class="post__categories">{{ post.categories | join: ', ' }}</span>
+    </li>
+  {% endfor %}
+</ul>
