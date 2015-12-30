@@ -14,7 +14,8 @@ layout: default
     {% assign author = site.data.authors[post.author] %}
     <li class="post__single">
       <h2>
-        <a class="post__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        {% include base.html %}
+        <a class="post__link" href="{{ base }}{{ post.url }}">{{ post.title }}</a>
       </h2>
       <span class="post__author">
         {% if author %}
